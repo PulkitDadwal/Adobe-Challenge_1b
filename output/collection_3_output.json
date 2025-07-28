@@ -1,0 +1,165 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T16:21:13.484410",
+        "total_sections_analyzed": 10,
+        "top_sections_returned": 10,
+        "processing_time_seconds": 3.23
+    },
+    "extracted_sections": [
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "page_number": 1,
+            "section_title": "Ingredients:",
+            "importance_rank": 1,
+            "relevance_score": 10.23
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 4,
+            "section_title": "Instructions:",
+            "importance_rank": 2,
+            "relevance_score": 8.94
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "page_number": 7,
+            "section_title": "Ingredients:",
+            "importance_rank": 3,
+            "relevance_score": 8.097
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 8,
+            "section_title": "Ingredients:",
+            "importance_rank": 4,
+            "relevance_score": 6.92
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 3,
+            "section_title": "Instructions:",
+            "importance_rank": 5,
+            "relevance_score": 6.689
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "page_number": 13,
+            "section_title": "Ingredients:",
+            "importance_rank": 6,
+            "relevance_score": 5.435
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 12,
+            "section_title": "o 1 small onion\no 2 tomatoes\no 1 jalapeño\no 1/4 cup cilantro\no 1 teaspoon salt\nInstructions:\no Dice ...",
+            "importance_rank": 7,
+            "relevance_score": 5.141
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "page_number": 2,
+            "section_title": "Hummus",
+            "importance_rank": 8,
+            "relevance_score": 5.076
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "page_number": 12,
+            "section_title": "Msemen",
+            "importance_rank": 9,
+            "relevance_score": 5.07
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 14,
+            "section_title": "Add shrimp, mussels, and cooked chicken, simmer for an additional 10 minutes until\nseafood is cooked...",
+            "importance_rank": 10,
+            "relevance_score": 4.4
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "page_number": 1,
+            "section_title": "Ingredients:",
+            "importance_rank": 1,
+            "refined_text": "o Scramble eggs in the same pan Pajeon (Pancakes)\nIngredients:\no 1 cup flour\no 1 cup water\no 1 egg\no 1/2 cup green onions\no 1/2 cup seafood (optional)\no 1 tablespoon soy sauce\no 1 tablespoon sesame oil\nInstructions:\no Mix flour, water, and beaten egg in a bowl o Add chopped green onions and seafood (if using)"
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 4,
+            "section_title": "Instructions:",
+            "importance_rank": 2,
+            "refined_text": "o Oil for frying\nInstructions:\no Mix grated cassava with coconut milk and salt o Form mixture into flat cakes Banchan\nIngredients:\no Assorted small side dishes like pickled radish, spinach, bean sprouts, kimchi\nInstructions:\no Prepare each side dish separately"
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "page_number": 7,
+            "section_title": "Ingredients:",
+            "importance_rank": 3,
+            "refined_text": "o Sprinkle with salt and serve warm or at room temperature Falafel\nIngredients:\no 1 can chickpeas\no 1 small onion\no 2 cloves garlic\no 1/4 cup parsley\no 1 teaspoon cumin\no 1 teaspoon coriander\no 1 teaspoon salt\no 1/4 cup flour\no Oil for frying\nInstructions:\no Drain and rinse chickpeas o Blend chickpeas, diced onion, minced garlic, chopped parsley, cumin, coriander,\nand salt in a food processor"
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 8,
+            "section_title": "Ingredients:",
+            "importance_rank": 4,
+            "refined_text": "o Add diced tomatoes, fish stock, wine, saffron, thyme, salt, and pepper, simmer\nfor 20 minutes o Add fish fillets, shrimp, and mussels, cook until seafood is done o Serve hot with crusty bread"
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 3,
+            "section_title": "Instructions:",
+            "importance_rank": 5,
+            "refined_text": "Instructions:\no Form risotto into balls and stuff with a cube of mozzarella o Dredge balls in flour, dip in beaten eggs, and coat with breadcrumbs o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food\nprocessor"
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "page_number": 13,
+            "section_title": "Ingredients:",
+            "importance_rank": 6,
+            "refined_text": "o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food\nprocessor o Slowly add olive oil while blending until smooth o Serve with a drizzle of olive oil"
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 12,
+            "section_title": "o 1 small onion\no 2 tomatoes\no 1 jalapeño\no 1/4 cup cilantro\no 1 teaspoon salt\nInstructions:\no Dice ...",
+            "importance_rank": 7,
+            "refined_text": "o 1 small onion\no 2 tomatoes\no 1 jalapeño\no 1/4 cup cilantro\no 1 teaspoon salt\nInstructions:\no Dice fish or shrimp and place in a bowl o Pour lime juice over the seafood and let marinate for 30 minutes o Dice onion, tomatoes, and jalapeño"
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "page_number": 2,
+            "section_title": "Hummus",
+            "importance_rank": 8,
+            "refined_text": "Hummus\nIngredients:\no 1 can chickpeas\no 1/4 cup tahini\no 1/4 cup lemon juice\no 2 cloves garlic\no 1/4 cup olive oil\no 1 teaspoon salt\nInstructions:\no Drain and rinse chickpeas o Blend chickpeas, tahini, lemon juice, minced garlic, and salt in a food processor o Slowly add olive oil while blending until smooth"
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "page_number": 12,
+            "section_title": "Msemen",
+            "importance_rank": 9,
+            "refined_text": "Msemen\nIngredients:\no 2 cups flour\no 1 cup semolina\no 1 teaspoon salt\no 1/4 cup olive oil\no 1 cup water\no 1/4 cup butter\nInstructions:\no Mix flour, semolina, and salt in a bowl o Add water and knead until smooth o Blend peppers, walnuts, breadcrumbs, minced garlic, olive oil, pomegranate\nmolasses, cumin, and salt in a food processor until smooth."
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 14,
+            "section_title": "Add shrimp, mussels, and cooked chicken, simmer for an additional 10 minutes until\nseafood is cooked...",
+            "importance_rank": 10,
+            "refined_text": "Add shrimp, mussels, and cooked chicken, simmer for an additional 10 minutes until\nseafood is cooked and rice is tender Garnish with lemon wedges and serve Pork Chops with Apples\nIngredients:\n4 pork chops\n2 apples, sliced\n1 small onion, sliced\n1/4 cup apple cider\n1/4 cup chicken broth\n2 tablespoons butter\n1 tablespoon olive oil\n1 teaspoon thyme\nSalt and pepper to taste\nInstructions:\nSeason pork chops with salt and pepper"
+        }
+    ]
+}

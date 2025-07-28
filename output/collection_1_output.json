@@ -1,0 +1,163 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+        "processing_timestamp": "2025-07-28T16:21:07.185080",
+        "total_sections_analyzed": 10,
+        "top_sections_returned": 10,
+        "processing_time_seconds": 1.33
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 1,
+            "section_title": "Introduction",
+            "importance_rank": 1,
+            "relevance_score": 83.333
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 9,
+            "section_title": "Conclusion",
+            "importance_rank": 2,
+            "relevance_score": 43.269
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 5,
+            "section_title": "Additional Tips: Download maps and travel guides to your devices for oﬄine use",
+            "importance_rank": 3,
+            "relevance_score": 39.474
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 2,
+            "section_title": "Keep them separate from the originals",
+            "importance_rank": 4,
+            "relevance_score": 37.225
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "page_number": 1,
+            "section_title": "Introduction",
+            "importance_rank": 5,
+            "relevance_score": 30.108
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "page_number": 8,
+            "section_title": "Hotel Le Mistral (Marseille): A budget-friendly hotel oﬀering simple, clean rooms and\na convenient l...",
+            "importance_rank": 6,
+            "relevance_score": 28.037
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "page_number": 12,
+            "section_title": "Hôtel Métropole Monte-Carlo (Monaco): A luxurious hotel oﬀering opulent rooms, a\nworld-class spa, an...",
+            "importance_rank": 7,
+            "relevance_score": 26.432
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 4,
+            "section_title": "Additional Tips: Pack a few statement pieces that can be dressed up or down, such as\na versatile dre...",
+            "importance_rank": 8,
+            "relevance_score": 24.691
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "page_number": 12,
+            "section_title": "Conclusion",
+            "importance_rank": 9,
+            "relevance_score": 24.561
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 2,
+            "section_title": "General Packing Tips and Tricks\nLayering: The weather can vary, so pack layers to stay comfortable i...",
+            "importance_rank": 10,
+            "relevance_score": 22.613
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 1,
+            "section_title": "Introduction",
+            "importance_rank": 1,
+            "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing,\nPlanning, and Exploring\nIntroduction\nPlanning a trip to the South of France requires thoughtful preparation to ensure a\ncomfortable and enjoyable experience. This guide covers everything from packing essentials\nto travel tips, catering to all seasons and various activities. Whether you're traveling solo, with\nkids, or in a group, this guide will help you make the most of your trip."
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 9,
+            "section_title": "Conclusion",
+            "importance_rank": 2,
+            "refined_text": "Conclusion\nPacking for a trip to the South of France involves considering the season, planned activities,\nand the needs of both adults and children. By following this comprehensive guide and\nincorporating the tips and tricks provided, you'll be well-prepared for a comfortable and\nenjoyable trip. Remember to pack light, versatile clothing, and essential items to make the\nmost of your travel experience. Bon voyage!"
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 5,
+            "section_title": "Additional Tips: Download maps and travel guides to your devices for oﬄine use",
+            "importance_rank": 3,
+            "refined_text": "Additional Tips: Download maps and travel guides to your devices for oﬄine use.\nConsider bringing a portable Wi-Fi hotspot for reliable internet access."
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 2,
+            "section_title": "Keep them separate from the originals",
+            "importance_rank": 4,
+            "refined_text": "Keep them separate from the originals Portable Laundry Kit: A small laundry kit with detergent and a travel clothesline can\nbe handy for longer trips Travel Pillow and Blanket: A compact travel pillow and blanket can make long flights\nor train rides more comfortable"
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "page_number": 1,
+            "section_title": "Introduction",
+            "importance_rank": 5,
+            "refined_text": "Ultimate Guide to Activities and Things to Do in the South of France\nIntroduction\nThe South of France, with its stunning coastline, picturesque villages, and vibrant cities, oﬀers\na wealth of activities and experiences for travelers. Whether you're seeking adventure,\nrelaxation, or cultural enrichment, this region has something for everyone. This guide will\ntake you through a variety of activities and must-see attractions to help you plan an\nunforgettable trip."
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "page_number": 8,
+            "section_title": "Hotel Le Mistral (Marseille): A budget-friendly hotel oﬀering simple, clean rooms and\na convenient l...",
+            "importance_rank": 6,
+            "refined_text": "The friendly staﬀ and aﬀordable rates make it\na good option for travelers on a budget The modern amenities and convenient location\nmake it a great choice for budget-conscious travelers The friendly staﬀ and aﬀordable rates make it\na good option for travelers on a budget."
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "page_number": 12,
+            "section_title": "Hôtel Métropole Monte-Carlo (Monaco): A luxurious hotel oﬀering opulent rooms, a\nworld-class spa, an...",
+            "importance_rank": 7,
+            "refined_text": "Hôtel Métropole Monte-Carlo (Monaco): A luxurious hotel oﬀering opulent rooms, a\nworld-class spa, and several Michelin-starred restaurants. The refined elegance and\nexceptional service make it a top choice for luxury travelers."
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 4,
+            "section_title": "Additional Tips: Pack a few statement pieces that can be dressed up or down, such as\na versatile dre...",
+            "importance_rank": 8,
+            "refined_text": "Makeup: Pack essentials in a travel-sized makeup bag Additional Tips: Consider packing a travel-sized perfume or cologne to freshen up on\nthe go Bring a travel\nadapter if needed"
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "page_number": 12,
+            "section_title": "Conclusion",
+            "importance_rank": 9,
+            "refined_text": "Conclusion\nThe South of France is a diverse and enchanting region that oﬀers a wide range of activities\nand experiences for travelers Whether you're exploring the stunning coastline, immersing\nyourself in the rich cultural heritage, or indulging in the culinary delights, there is something\nfor everyone to enjoy Use\nthis guide to plan your trip and make the most of everything this beautiful region has to oﬀer."
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 2,
+            "section_title": "General Packing Tips and Tricks\nLayering: The weather can vary, so pack layers to stay comfortable i...",
+            "importance_rank": 10,
+            "refined_text": "General Packing Tips and Tricks\nLayering: The weather can vary, so pack layers to stay comfortable in diﬀerent\ntemperatures Travel-Sized Toiletries: Bring travel-sized toiletries to save space and comply with\nairline regulations Copies of Important Documents: Make copies of your passport, travel insurance, and\nother important documents."
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Learn Acrobat - Create and Convert_1.pdf",
+            "Learn Acrobat - Create and Convert_2.pdf",
+            "Learn Acrobat - Edit_1.pdf",
+            "Learn Acrobat - Edit_2.pdf",
+            "Learn Acrobat - Export_1.pdf",
+            "Learn Acrobat - Export_2.pdf",
+            "Learn Acrobat - Fill and Sign.pdf",
+            "Learn Acrobat - Generative AI_1.pdf",
+            "Learn Acrobat - Generative AI_2.pdf",
+            "Learn Acrobat - Request e-signatures_1.pdf",
+            "Learn Acrobat - Request e-signatures_2.pdf",
+            "Learn Acrobat - Share_1.pdf",
+            "Learn Acrobat - Share_2.pdf",
+            "Test Your Acrobat Exporting Skills.pdf",
+            "The Ultimate PDF Sharing Checklist.pdf"
+        ],
+        "persona": "HR professional",
+        "job_to_be_done": "Create and manage fillable forms for onboarding and compliance.",
+        "processing_timestamp": "2025-07-28T16:21:10.133127",
+        "total_sections_analyzed": 10,
+        "top_sections_returned": 10,
+        "processing_time_seconds": 2.88
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 10,
+            "section_title": "Create a blank PDF\nYou can create a blank PDF, rather than beginning with a file, a clipboard image,...",
+            "importance_rank": 1,
+            "relevance_score": 80.597
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 1,
+            "section_title": "Fill and Sign PDF Forms\nYou can easily fill, sign, and share your documents using Acrobat's Fill & S...",
+            "importance_rank": 2,
+            "relevance_score": 78.125
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 12,
+            "section_title": "Change flat forms to fillable (Acrobat Pro)\nYou can change a flat form to a fillable form by either ...",
+            "importance_rank": 3,
+            "relevance_score": 69.307
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 4,
+            "section_title": "Adobe Photoshop,",
+            "importance_rank": 4,
+            "relevance_score": 65.189
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 8,
+            "section_title": "Fill in PDF Forms\nIs the form fillable",
+            "importance_rank": 5,
+            "relevance_score": 63.905
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 21,
+            "section_title": "In the Save Adobe PDF File As dialog box, specify a filename and location for the PDF",
+            "importance_rank": 6,
+            "relevance_score": 56.122
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 1,
+            "section_title": "Or, select the hamburger menu\n(Windows) or\nthe File menu (macOS)  > Create and then select the\nappro...",
+            "importance_rank": 7,
+            "relevance_score": 54.608
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 14,
+            "section_title": "1. Open the file in the application used to create it.",
+            "importance_rank": 8,
+            "relevance_score": 54.054
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 12,
+            "section_title": "Using Create PDF cloud service for PDF\nconversion\nAcrobat provides an option to use Adobe Create PDF...",
+            "importance_rank": 9,
+            "relevance_score": 53.933
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 16,
+            "section_title": "3. Acrobat converts the file into a PDF, creates a shareable link, and opens Outlook with",
+            "importance_rank": 10,
+            "relevance_score": 51.724
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 10,
+            "section_title": "Create a blank PDF\nYou can create a blank PDF, rather than beginning with a file, a clipboard image,...",
+            "importance_rank": 1,
+            "refined_text": "The Create a PDF tool opens On the le� rail, select Blank page, and then select Create Acrobat creates a blank page PDF."
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 1,
+            "section_title": "Fill and Sign PDF Forms\nYou can easily fill, sign, and share your documents using Acrobat's Fill & S...",
+            "importance_rank": 2,
+            "refined_text": "Fill and Sign PDF Forms\nYou can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types\nof PDF forms"
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 12,
+            "section_title": "Change flat forms to fillable (Acrobat Pro)\nYou can change a flat form to a fillable form by either ...",
+            "importance_rank": 3,
+            "refined_text": "Change flat forms to fillable (Acrobat Pro)\nYou can change a flat form to a fillable form by either using the Prepare Form tool or\nenabling the Fill & Sign tools Interactive form\nTo create an interactive form, use the Prepare Forms tool See Create a form from an existing\ndocument"
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 4,
+            "section_title": "Adobe Photoshop,",
+            "importance_rank": 4,
+            "refined_text": "Or, select the hamburger menu\n(Windows) or\nthe File menu (macOS) > Create > PDF from file and follow\nthrough the workflow PostScript and EPS files\nMethod 1: From the top tools bar, select Create and then\nselect the file Or, select the hamburger menu\n(Windows) or\nthe File menu (macOS) > Create > PDF from file and follow\nthrough the workflow 3D files (Acrobat Pro)\nMethod 1: From the top tools bar, select Create and then\nselect the file."
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 8,
+            "section_title": "Fill in PDF Forms\nIs the form fillable",
+            "importance_rank": 5,
+            "refined_text": "Fill in PDF Forms\nIs the form fillable Not all forms are fillable Sometimes form creators don’t convert their PDFs to\ninteractive fillable forms"
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 21,
+            "section_title": "In the Save Adobe PDF File As dialog box, specify a filename and location for the PDF",
+            "importance_rank": 6,
+            "refined_text": "In the Save Adobe PDF File As dialog box, specify a filename and location for the PDF Select Save to create the PDF (Office 2010) From the Acrobat ribbon, select Create PDF, Create And Attach to Email,\nor Create And Send For Review In the Save Adobe PDF File As dialog box, specify a filename and location for the PDF"
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 1,
+            "section_title": "Or, select the hamburger menu\n(Windows) or\nthe File menu (macOS)  > Create and then select the\nappro...",
+            "importance_rank": 7,
+            "refined_text": "Or, select the hamburger menu\n(Windows) or\nthe File menu (macOS)  > Create and then select the\nappropriate file type and follow through the steps. Method 2: Drag and drop a file from your system to the\nAcrobat Home page. Method 3: Right-click on the file and then select Convert to\nAdobe PDF.."
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 14,
+            "section_title": "1. Open the file in the application used to create it.",
+            "importance_rank": 8,
+            "refined_text": "Open the file in the application used to create it Open the file in the application used to create it Do any of the following:\nFrom the Home tab, choose Create PDF and share link"
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 12,
+            "section_title": "Using Create PDF cloud service for PDF\nconversion\nAcrobat provides an option to use Adobe Create PDF...",
+            "importance_rank": 9,
+            "refined_text": "Using Create PDF cloud service for PDF\nconversion\nAcrobat provides an option to use Adobe Create PDF cloud service in addition to a local\nconversion to convert Microsoft Word documents to PDFs The created PDFs are high-quality\nand provide exceptional visual fidelity They also\ninclude link recognition so that hyperlinks, internal document links, and tables of contents are\ncreated as live links."
+        },
+        {
+            "document": "Learn Acrobat - Create and Convert_1.pdf",
+            "page_number": 16,
+            "section_title": "3. Acrobat converts the file into a PDF, creates a shareable link, and opens Outlook with",
+            "importance_rank": 10,
+            "refined_text": "From the Acrobat tab, choose Create PDF and Share via Outlook Select File > Share > Email > Create PDF and Share via Outlook Acrobat converts the file into a PDF, creates a shareable link, and opens Outlook with\nthe link in a new message draft"
+        }
+    ]
+}
