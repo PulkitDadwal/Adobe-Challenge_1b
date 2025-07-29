@@ -63,52 +63,93 @@ The system processes documents through multiple stages:
 - Supports AMD64 architecture explicitly
 - Containerized for consistent execution
 
-## How to Build and Run
+## Execution Instructions
 
-### Build the Docker Image
+### Prerequisites
+- Docker installed on your system
+- Input data in `Challenge_1b` directory structure
+
+### Step-by-Step Execution
+
+1. **Prepare your input directory**:
+   ```bash
+   # Ensure your Challenge_1b directory contains collections like:
+   # Challenge_1b/
+   #   ├── Collection 1/
+   #   ├── Collection 2/
+   #   └── Collection 3/
+   ```
+
+2. **Create output directory**:
+   ```bash
+   mkdir -p output
+   ```
+
+3. **Run the system** (choose one method):
+
+   **Option A: Using pre-built image (recommended)**:
+   ```bash
+   docker run --rm \
+     -v $(pwd)/Challenge_1b:/app/input \
+     -v $(pwd)/output:/app/output \
+     --network none \
+     parzivl/document-intelligence:latest
+   ```
+
+   **Option B: Build and run locally**:
+   ```bash
+   docker build --platform linux/amd64 -t document-intelligence:latest .
+   docker run --rm \
+     -v $(pwd)/Challenge_1b:/app/input \
+     -v $(pwd)/output:/app/output \
+     --network none \
+     document-intelligence:latest
+   ```
+
+   **Option C: Windows PowerShell**:
+   ```powershell
+   docker run --rm `
+     -v "${PWD}/Challenge_1b:/app/input" `
+     -v "${PWD}/output:/app/output" `
+     --network none `
+     parzivl/document-intelligence:latest
+   ```
+
+4. **Verify results**:
+   ```bash
+   ls output/
+   # Should show: collection_1_output.json, collection_2_output.json, etc.
+   ```
+
+### Processing Individual Collections
+
+To process a specific collection:
 ```bash
-docker build --platform linux/amd64 -t document-intelligence:latest .
+docker run --rm \
+  -v $(pwd)/Challenge_1b:/app/input \
+  -v $(pwd)/output:/app/output \
+  --network none \
+  parzivl/document-intelligence:latest \
+  python challenge1b_processor.py --collection "/app/input/Collection 1"
 ```
 
-### Run the Solution
+### Direct Usage (Development)
+
+For development or custom usage:
 ```bash
-docker run --rm -v $(pwd)/Challenge_1b:/app/input -v $(pwd)/output:/app/output --network none document-intelligence:latest
+python main.py \
+  --pdfs doc1.pdf doc2.pdf doc3.pdf \
+  --persona "PhD Researcher in Computational Biology" \
+  --job "Prepare literature review on GNNs for drug discovery" \
+  --output results.json
 ```
 
-### Expected Behavior
-- Processes all collections from `/app/input` directory
-- Generates corresponding `collection_X_output.json` files in `/app/output`
-- Each JSON contains extracted sections and refined summaries
-- Works completely offline with no network calls
-- Processing time under 60 seconds for 3-5 PDFs
+### Troubleshooting
 
-### Input/Output Format
-**Input**: Challenge 1b directory structure with collections containing PDFs and input JSON
-**Output**: JSON files with structure:
-```json
-{
-  "metadata": {
-    "input_documents": ["list of PDF files"],
-    "persona": "User Persona",
-    "job_to_be_done": "Task description"
-  },
-  "extracted_sections": [
-    {
-      "document": "source.pdf",
-      "section_title": "Title",
-      "importance_rank": 1,
-      "page_number": 1
-    }
-  ],
-  "subsection_analysis": [
-    {
-      "document": "source.pdf",
-      "refined_text": "Content",
-      "page_number": 1
-    }
-  ]
-}
-```
+- **Permission issues**: Ensure Docker has access to your directories
+- **Network disabled**: The `--network none` flag ensures offline operation
+- **Platform compatibility**: Use `--platform linux/amd64` for consistent results
+- **Memory issues**: System processes documents page-by-page to minimize memory usage
 
 ## Performance
 
@@ -135,6 +176,3 @@ python main.py --pdfs doc1.pdf doc2.pdf doc3.pdf \
                --persona "PhD Researcher in Computational Biology" \
                --job "Prepare literature review on GNNs for drug discovery"
 ```
-
-
-
